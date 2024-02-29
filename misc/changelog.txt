@@ -1,0 +1,63 @@
+Version 0.8
+- Fixed bug where audio wasn't being muted at the start of the game
+  if mute audio was checked in the Settings Menu
+- Added option to restart the game from Pause Menu
+- Added Alternate Control Scheme for movement
+  - Controls can be switched from Arrow Keys to WASD from the Settings Menu
+- Added High Scores to the game
+  - High Score is stored locally
+
+Version 0.7
+- Added more sounds:
+  - Kamikaze Enemies when they charge at player
+  - Button presses
+- Settings are now saved whenever they are changed by the player
+- Added more options to Settings Menu:
+  - Volume slider
+  - Window Style
+- Changes to Bonuses:
+  - Active bonuses are displayed under the bonus multiplier
+  - Added bonus multiplier for killing enemies at low health
+- Added quit button to the following screens:
+  - Main Menu
+  - Pause Menu
+  - Game Over
+- Pickup distribution is now more uniform
+- Fixed a bug that caused the game to crash
+
+Version 0.6
+- More uniform scaling of enemy types
+- Kamikaze enemies now continue to go offscreen once they reach
+  close enough to the player
+- Game opens in full screen now
+- Added Settings Menu with the following options:
+  - Toggle dynamic background (stars)
+  - Toggle mute audio
+  - Settings are not saved and reset when the game is launched again
+- Removed option to exit game using ESCAPE key
+
+Version 0.5
+- Enemy behaviour variations
+  - Simple Flying Enemies: Just shoot at fixed interval
+  - Dropper Enemies: Switch places when available and drop items
+  - Kamikaze Enemies: Charge at the player at a fixed interval
+- More uniform and predictable enemy distribution
+- Fixed bugs related to resizing game window
+- Added option to exit game through Main Menu and Pause Menu
+
+Version 0.4
+- Game window is now resizable
+- Added Bonus multiplier to the UI
+
+Version 0.3
+- Added bonus multipliers for multi-kills
+- Added Pause Menu
+
+Version 0.2
+- Player bullets are faster compared to enemy bullets
+- Window is no longer borderless so it can be moved
+  - Several bugs are encountered when the window
+    is resized so it's advisable not to do that :P
+
+Version 0.1
+- First build of the game. Made in two days.

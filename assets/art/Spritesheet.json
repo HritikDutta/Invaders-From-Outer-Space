@@ -1,0 +1,733 @@
+{
+    "directory": "D:\\Projects\\Game Development\\Space Invaders\\assets\\art",
+    "file": "Spritesheet.psd",
+    "animations": [
+        {
+            "name": "player_normal",
+            "loopType": "Cycle",
+            "frameRate": 10.000000,
+            "frames": [
+                {
+                    "left": 1,
+                    "bottom": 80,
+                    "right": 16,
+                    "top": 96,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 17,
+                    "bottom": 80,
+                    "right": 32,
+                    "top": 96,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "player_damage",
+            "loopType": "Cycle",
+            "frameRate": 10.000000,
+            "frames": [
+                {
+                    "left": 1,
+                    "bottom": 80,
+                    "right": 16,
+                    "top": 96,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 145,
+                    "bottom": 5,
+                    "right": 160,
+                    "top": 21,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "player_charged",
+            "loopType": "Cycle",
+            "frameRate": 10.000000,
+            "frames": [
+                {
+                    "left": 1,
+                    "bottom": 5,
+                    "right": 16,
+                    "top": 21,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 17,
+                    "bottom": 5,
+                    "right": 32,
+                    "top": 21,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 1,
+                    "bottom": 97,
+                    "right": 16,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 17,
+                    "bottom": 97,
+                    "right": 32,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 1,
+                    "bottom": 97,
+                    "right": 16,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 17,
+                    "bottom": 97,
+                    "right": 32,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 1,
+                    "bottom": 97,
+                    "right": 16,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 17,
+                    "bottom": 97,
+                    "right": 32,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 1,
+                    "bottom": 97,
+                    "right": 16,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 17,
+                    "bottom": 97,
+                    "right": 32,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 1,
+                    "bottom": 97,
+                    "right": 16,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 17,
+                    "bottom": 97,
+                    "right": 32,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 1,
+                    "bottom": 97,
+                    "right": 16,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 17,
+                    "bottom": 97,
+                    "right": 32,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "player_lazer_wind_up",
+            "loopType": "None",
+            "frameRate": 7.000000,
+            "frames": [
+                {
+                    "left": 1,
+                    "bottom": 80,
+                    "right": 16,
+                    "top": 96,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 33,
+                    "bottom": 5,
+                    "right": 48,
+                    "top": 21,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 49,
+                    "bottom": 5,
+                    "right": 64,
+                    "top": 21,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 65,
+                    "bottom": 5,
+                    "right": 80,
+                    "top": 21,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 81,
+                    "bottom": 5,
+                    "right": 96,
+                    "top": 21,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 97,
+                    "bottom": 5,
+                    "right": 112,
+                    "top": 21,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "player_lazer_shoot",
+            "loopType": "Cycle",
+            "frameRate": 10.000000,
+            "frames": [
+                {
+                    "left": 113,
+                    "bottom": 5,
+                    "right": 128,
+                    "top": 21,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 129,
+                    "bottom": 5,
+                    "right": 144,
+                    "top": 21,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "bullet_standard",
+            "loopType": "Cycle",
+            "frameRate": 10.000000,
+            "frames": [
+                {
+                    "left": 1,
+                    "bottom": 66,
+                    "right": 4,
+                    "top": 74,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 1.000000
+                },
+                {
+                    "left": 5,
+                    "bottom": 66,
+                    "right": 8,
+                    "top": 74,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 1.000000
+                }
+            ]
+        },
+        {
+            "name": "bullet_powered",
+            "loopType": "Cycle",
+            "frameRate": 10.000000,
+            "frames": [
+                {
+                    "left": 9,
+                    "bottom": 65,
+                    "right": 14,
+                    "top": 74,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 1.000000
+                },
+                {
+                    "left": 15,
+                    "bottom": 65,
+                    "right": 20,
+                    "top": 74,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 1.000000
+                }
+            ]
+        },
+        {
+            "name": "lazer",
+            "loopType": "Cycle",
+            "frameRate": 50.000000,
+            "frames": [
+                {
+                    "left": 1,
+                    "bottom": 54,
+                    "right": 10,
+                    "top": 64,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 11,
+                    "bottom": 54,
+                    "right": 20,
+                    "top": 64,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 21,
+                    "bottom": 54,
+                    "right": 30,
+                    "top": 64,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 1,
+                    "bottom": 43,
+                    "right": 10,
+                    "top": 53,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 11,
+                    "bottom": 43,
+                    "right": 20,
+                    "top": 53,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "bullet_enemy",
+            "loopType": "Cycle",
+            "frameRate": 10.000000,
+            "frames": [
+                {
+                    "left": 21,
+                    "bottom": 66,
+                    "right": 24,
+                    "top": 74,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.000000
+                },
+                {
+                    "left": 25,
+                    "bottom": 66,
+                    "right": 28,
+                    "top": 74,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.000000
+                }
+            ]
+        },
+        {
+            "name": "player_death",
+            "loopType": "None",
+            "frameRate": 7.000000,
+            "frames": [
+                {
+                    "left": 33,
+                    "bottom": 65,
+                    "right": 65,
+                    "top": 97,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 65,
+                    "bottom": 65,
+                    "right": 97,
+                    "top": 97,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 97,
+                    "bottom": 65,
+                    "right": 129,
+                    "top": 97,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 129,
+                    "bottom": 65,
+                    "right": 161,
+                    "top": 97,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_death",
+            "loopType": "None",
+            "frameRate": 15.000000,
+            "frames": [
+                {
+                    "left": 33,
+                    "bottom": 32,
+                    "right": 65,
+                    "top": 64,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 65,
+                    "bottom": 32,
+                    "right": 97,
+                    "top": 64,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 97,
+                    "bottom": 32,
+                    "right": 129,
+                    "top": 64,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 129,
+                    "bottom": 32,
+                    "right": 161,
+                    "top": 64,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_0",
+            "loopType": "Cycle",
+            "frameRate": 3.000000,
+            "frames": [
+                {
+                    "left": 164,
+                    "bottom": 89,
+                    "right": 177,
+                    "top": 102,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 178,
+                    "bottom": 89,
+                    "right": 191,
+                    "top": 102,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_1",
+            "loopType": "Cycle",
+            "frameRate": 3.000000,
+            "frames": [
+                {
+                    "left": 164,
+                    "bottom": 75,
+                    "right": 177,
+                    "top": 88,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 178,
+                    "bottom": 75,
+                    "right": 191,
+                    "top": 88,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "ememy_2",
+            "loopType": "Cycle",
+            "frameRate": 3.000000,
+            "frames": [
+                {
+                    "left": 164,
+                    "bottom": 62,
+                    "right": 177,
+                    "top": 74,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 179,
+                    "bottom": 62,
+                    "right": 192,
+                    "top": 74,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_3",
+            "loopType": "Cycle",
+            "frameRate": 3.000000,
+            "frames": [
+                {
+                    "left": 164,
+                    "bottom": 49,
+                    "right": 177,
+                    "top": 61,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 179,
+                    "bottom": 49,
+                    "right": 192,
+                    "top": 61,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_4",
+            "loopType": "Cycle",
+            "frameRate": 3.000000,
+            "frames": [
+                {
+                    "left": 163,
+                    "bottom": 33,
+                    "right": 178,
+                    "top": 48,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 179,
+                    "bottom": 33,
+                    "right": 194,
+                    "top": 48,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_5",
+            "loopType": "Cycle",
+            "frameRate": 3.000000,
+            "frames": [
+                {
+                    "left": 163,
+                    "bottom": 17,
+                    "right": 178,
+                    "top": 32,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 179,
+                    "bottom": 17,
+                    "right": 194,
+                    "top": 32,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_6",
+            "loopType": "Cycle",
+            "frameRate": 3.000000,
+            "frames": [
+                {
+                    "left": 163,
+                    "bottom": 1,
+                    "right": 178,
+                    "top": 16,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 179,
+                    "bottom": 1,
+                    "right": 194,
+                    "top": 16,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "pickup_health",
+            "loopType": "None",
+            "frameRate": 30.000000,
+            "frames": [
+                {
+                    "left": 1,
+                    "bottom": 22,
+                    "right": 10,
+                    "top": 31,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "pickup_powered",
+            "loopType": "None",
+            "frameRate": 30.000000,
+            "frames": [
+                {
+                    "left": 11,
+                    "bottom": 22,
+                    "right": 20,
+                    "top": 31,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "pickup_extra_shot",
+            "loopType": "None",
+            "frameRate": 30.000000,
+            "frames": [
+                {
+                    "left": 21,
+                    "bottom": 22,
+                    "right": 30,
+                    "top": 31,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "pickup_lazer",
+            "loopType": "None",
+            "frameRate": 30.000000,
+            "frames": [
+                {
+                    "left": 31,
+                    "bottom": 22,
+                    "right": 40,
+                    "top": 31,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "pickup_skull",
+            "loopType": "None",
+            "frameRate": 30.000000,
+            "frames": [
+                {
+                    "left": 41,
+                    "bottom": 22,
+                    "right": 50,
+                    "top": 31,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "explosion_power_shot",
+            "loopType": "None",
+            "frameRate": 15.000000,
+            "frames": [
+                {
+                    "left": 181,
+                    "bottom": 107,
+                    "right": 187,
+                    "top": 113,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 161,
+                    "bottom": 106,
+                    "right": 177,
+                    "top": 122,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 159,
+                    "bottom": 125,
+                    "right": 191,
+                    "top": 157,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "stars",
+            "loopType": "None",
+            "frameRate": 30.000000,
+            "frames": [
+                {
+                    "left": 190,
+                    "bottom": 121,
+                    "right": 191,
+                    "top": 122,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 189,
+                    "bottom": 116,
+                    "right": 192,
+                    "top": 119,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        }
+    ]
+}

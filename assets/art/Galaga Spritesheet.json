@@ -1,0 +1,291 @@
+{
+    "directory": "D:\\Projects\\Game Development\\Space Invaders\\assets\\art",
+    "file": "Galaga Spritesheet.png",
+    "animations": [
+        {
+            "name": "player_ship",
+            "loopType": "None",
+            "frameRate": 30.000000,
+            "frames": [
+                {
+                    "left": 109,
+                    "bottom": 199,
+                    "right": 124,
+                    "top": 215,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "player_ship_shield",
+            "loopType": "Cycle",
+            "frameRate": 5.000000,
+            "frames": [
+                {
+                    "left": 109,
+                    "bottom": 181,
+                    "right": 124,
+                    "top": 197,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 109,
+                    "bottom": 199,
+                    "right": 124,
+                    "top": 215,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "player_ship_destroyed",
+            "loopType": "None",
+            "frameRate": 10.000000,
+            "frames": [
+                {
+                    "left": 145,
+                    "bottom": 182,
+                    "right": 178,
+                    "top": 216,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 178,
+                    "bottom": 182,
+                    "right": 211,
+                    "top": 216,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 213,
+                    "bottom": 182,
+                    "right": 246,
+                    "top": 216,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 246,
+                    "bottom": 182,
+                    "right": 279,
+                    "top": 216,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_destroy",
+            "loopType": "Cycle",
+            "frameRate": 10.000000,
+            "frames": [
+                {
+                    "left": 287,
+                    "bottom": 182,
+                    "right": 320,
+                    "top": 216,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 322,
+                    "bottom": 182,
+                    "right": 355,
+                    "top": 216,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 356,
+                    "bottom": 182,
+                    "right": 389,
+                    "top": 216,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 391,
+                    "bottom": 182,
+                    "right": 424,
+                    "top": 216,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 425,
+                    "bottom": 182,
+                    "right": 458,
+                    "top": 216,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_1_idle",
+            "loopType": "Cycle",
+            "frameRate": 5.000000,
+            "frames": [
+                {
+                    "left": 110,
+                    "bottom": 109,
+                    "right": 125,
+                    "top": 125,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 128,
+                    "bottom": 109,
+                    "right": 143,
+                    "top": 125,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_2_idle",
+            "loopType": "Cycle",
+            "frameRate": 5.000000,
+            "frames": [
+                {
+                    "left": 110,
+                    "bottom": 163,
+                    "right": 125,
+                    "top": 179,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 128,
+                    "bottom": 163,
+                    "right": 143,
+                    "top": 179,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_3_idle",
+            "loopType": "Cycle",
+            "frameRate": 5.000000,
+            "frames": [
+                {
+                    "left": 110,
+                    "bottom": 145,
+                    "right": 125,
+                    "top": 161,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 128,
+                    "bottom": 145,
+                    "right": 143,
+                    "top": 161,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_4_idle",
+            "loopType": "Cycle",
+            "frameRate": 5.000000,
+            "frames": [
+                {
+                    "left": 110,
+                    "bottom": 127,
+                    "right": 125,
+                    "top": 143,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 128,
+                    "bottom": 127,
+                    "right": 143,
+                    "top": 143,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_5_idle",
+            "loopType": "Cycle",
+            "frameRate": 5.000000,
+            "frames": [
+                {
+                    "left": 254,
+                    "bottom": 163,
+                    "right": 269,
+                    "top": 179,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 272,
+                    "bottom": 163,
+                    "right": 287,
+                    "top": 179,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_6_idle",
+            "loopType": "None",
+            "frameRate": 30.000000,
+            "frames": [
+                {
+                    "left": 254,
+                    "bottom": 145,
+                    "right": 269,
+                    "top": 161,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 272,
+                    "bottom": 145,
+                    "right": 287,
+                    "top": 161,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        },
+        {
+            "name": "enemy_7_idle",
+            "loopType": "Cycle",
+            "frameRate": 5.000000,
+            "frames": [
+                {
+                    "left": 254,
+                    "bottom": 127,
+                    "right": 269,
+                    "top": 143,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                },
+                {
+                    "left": 272,
+                    "bottom": 127,
+                    "right": 287,
+                    "top": 143,
+                    "pivot_x": 0.500000,
+                    "pivot_y": 0.500000
+                }
+            ]
+        }
+    ]
+}

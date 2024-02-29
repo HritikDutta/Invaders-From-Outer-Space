@@ -1,0 +1,107 @@
+Rules:
+
+All integers are stored as literal binary values and not in characters
+
+8 bit signed integer 4  -> (i1){4}
+8 bit signed integer -4 -> (i1){-4}
+
+32 bit unsigned integer 408  -> (u4){408}
+32 bit floating point number -> (f4){23.8}
+
+string -> (s15){Hello Stranger!}
+array of 32 bit integers -> (a4){(i4){-1}(i4){204}(i4){5230}(i4){-400}}
+array of bytes -> (au2){{2}{3}}
+
+object -> (o)
+null -> (n)
+boolean -> (1) or (0) // (true) or (false)
+
+(a2){
+  (o){
+    (s6){sports}
+    (a1){
+      (o){
+        (s37){Which one is a correct NBA team name?}
+        (a4){
+          (s14){New York Bulls}
+          (s17){Los Angeles Kings}
+          (s21){Golden State Warriors}
+          (s13){Huston Rocket}
+        }
+        (u8){4}
+      }
+    }
+  }
+  (o){
+    (s5){maths}
+    (a2){
+      (o){
+        (s10){5 + 7 = ?}
+        (a4){
+          (s2){10}
+          (s2){11}
+          (s2){12}
+          (s2){13}
+        }
+        (u8){3}
+      }
+      (o){
+        (s11){12 - 8 = ?}
+        (a4){
+          (s1){1}
+          (s1){2}
+          (s1){3}
+          (s1){4}
+        }
+        (u8){4}
+      }
+    }
+  }
+}
+
+a2os6sportsa1os37Which one is a correct NBA team name?a4s14New York Bullss17Los Angeles Kingss21Golden State Warriorss13Huston Rocketu84os5mathsa2os105 + 7 = ?a4s210s211s212s213u83os1112 - 8 = ?a4s11s12s13s14u84
+
+nil
+boolean (true/false)
+integers (signed/unsigned)
+floats
+string
+array
+object
+
+type data size
+ ___   __  ___
+ 000   XX  XXX -> nil
+ 
+ 001   X0  XXX -> false
+ 001   X1  XXX -> true
+ 
+ 010   X0  000 -> 1 byte unsigned integer
+ 010   X0  001 -> 2 byte unsigned integer
+ 010   X0  010 -> 4 byte unsigned integer
+ 010   X0  011 -> 8 byte unsigned integer
+ 010   X1  000 -> 1 byte signed integer
+ 010   X1  001 -> 2 byte signed integer
+ 010   X1  010 -> 4 byte signed integer
+ 010   X1  011 -> 8 byte signed integer
+ 
+ 011   XX  010 -> 4 byte float
+ 011   XX  011 -> 8 byte float
+ 
+ 100   XX  000 -> 1 byte sized string
+ 100   XX  001 -> 2 byte sized string
+ 100   XX  010 -> 4 byte sized string
+ 100   XX  011 -> 8 byte sized string
+ 
+ 101   X0  000 -> 1 byte sized array of bytes
+ 101   X0  001 -> 2 byte sized array of bytes
+ 101   X0  010 -> 4 byte sized array of bytes
+ 101   X0  011 -> 8 byte sized array of bytes
+
+ 101   X1  000 -> 1 byte sized array of any type
+ 101   X1  001 -> 2 byte sized array of any type
+ 101   X1  010 -> 4 byte sized array of any type
+ 101   X1  011 -> 8 byte sized array of any type
+ 
+ 110   X0  XXX -> object start
+ 110   X1  XXX -> object end

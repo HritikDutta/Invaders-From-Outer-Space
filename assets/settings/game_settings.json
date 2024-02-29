@@ -1,0 +1,86 @@
+{
+    "render_scale": { "x": 3.0, "y": 3.0 },
+
+    "player_move_speed": 500.0,
+    "player_region_height": 200.0,
+
+    "player_shot_delay": 0.3,
+    "player_bullet_collider_size": { "x": 2.0, "y": 6.0 },
+    "player_powered_shot_collider_size": { "x": 40.0, "y": 40.0 },
+
+    "lazer_length": 19,
+    "lazer_duration": 1.5,
+    "lazer_speed": 120.0,
+    "lazer_streak_requirement": 5,
+    "lazer_power_requirement": 5,
+
+    "player_collider_size": { "x": 14.0, "y": 6.0 },
+
+    "padding": { "x": 30.0, "y": 30.0 },
+
+    "enemy_move_speed": { "x": 250.0, "y": 300.0 },
+    "enemy_wiggle_speed": { "x": 5.0, "y": 7.0 },
+    "enemy_move_range": 15.0,
+    "enemy_rearrange_delay": 2.0,
+    "enemy_shot_delay": 0.65,
+    "enemy_kamikaze_delay": 2.5,
+    "enemy_bullet_collider_size": { "x": 2.0, "y": 6.0 },
+    "enemy_row_start_count": 1,
+    "enemy_column_start_count": 5,
+    "enemy_vertical_gap": 60.0,
+    "enemy_collider_size": { "x": 12.0, "y": 12.0 },
+    "enemy_start_spawn_counts": {
+        "flying": 1000,
+        "dropper": 0,
+        "kamikaze": 0
+    },
+    "enemy_spawn_count_increase_intervals": {
+        "flying": 1000,
+        "dropper": 4,
+        "kamikaze": 7
+    },
+    "enemy_spawn_count_increments": {
+        "flying": 1,
+        "dropper": 1,
+        "kamikaze": 2
+    },
+
+    "player_bullet_speed": 700.0,
+    "enemy_bullet_speed":  300.0,
+    "pickup_drop_speed":   300.0,
+
+    "pickup_collider_size": { "x": 12.0, "y": 12.0 },
+    "pickup_drop_chances": {
+        "health": 0.25,
+        "power_shot": 0.25,
+        "extra_shot": 0.25,
+        "skull": 0.25
+    },
+    "pickup_deck_size": 8,
+    
+    "power_shot_drop_ammo": 10,
+    "power_shot_max_ammo" : 20,
+    "extra_shot_drop_ammo": 10,
+    "extra_shot_max_ammo" : 20,
+
+    "max_lazer_drops": 2,
+
+    "points_per_kill": 10,
+    "kill_streak_multiplier": 1.5,
+    "max_kill_streak_multipliers": 5,
+    "multi_kill_multiplier": 2.0,
+    "min_kills_for_multi_kill": 2,
+    "low_health_multiplier": 2.0,
+
+    "background_star_count": 50,
+    "background_star_offset_multiplier": 0.2,
+
+    "ui_blink_delay": 0.5,
+    "ui_background_alpha": 0.45,
+    "ui_tutorial_font_scale": 1.0,
+    "ui_fade_out_time": 0.5,
+
+    "screen_shake_amplitude_lazer": 4.0,
+    "screen_shake_amplitude_enemy": 3.0,
+    "screen_shake_enemy_kill_duration": 0.1
+}
